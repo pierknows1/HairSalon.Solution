@@ -1,1 +1,1 @@
-namespace HairSalon.Models
+// namespace HairSalon.Models

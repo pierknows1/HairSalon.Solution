@@ -1,3 +1,3 @@
-using Microsoft.EntityFrameworkCore;
+// using Microsoft.EntityFrameworkCore;
 
-namespace HairSalon.Models
+// namespace HairSalon.Models

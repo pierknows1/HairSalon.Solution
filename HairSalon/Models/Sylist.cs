@@ -1,3 +1,3 @@
-using System.Collections.Generic;
+// using System.Collections.Generic;
 
-namespace HairSalon.Models
+// namespace HairSalon.Models
