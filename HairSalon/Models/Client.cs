@@ -1,0 +1,1 @@
+namespace HairSalon.Models
