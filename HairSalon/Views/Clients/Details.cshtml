@@ -7,6 +7,7 @@
 <h2> @Model.ClientName's Details </h2>
 <h3>Stylist: @Model.Stylist.StylistName</h3>
 
+<p>@Html.ActionLink($"Edit {Model.ClientName}", "Edit")</p>
 <p>@Html.ActionLink($"Return to {Model.Stylist.StylistName}", "Details", "Stylists", 
     new { id = Model.Stylist.StylistId})</p>
 <p>@Html.ActionLink("Return to all Stylists", "Index", "Stylists")</p>
