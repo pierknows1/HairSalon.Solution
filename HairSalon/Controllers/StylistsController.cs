@@ -1,14 +1,22 @@
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using HairSalon.Models;
 using System.Collections.Generic;
 using System.Linq;
+using Microsoft.EntityFrameworkCore;
 
 namespace HairSalon.Controllers
 {
-    public class CustomersControllers : Controller
-
+  public class StylistsController : Controller
+  {
+    private readonly HairSalonContext _db;
+    public StylistsController(HairSalonContext db)
     {
-        
+      _db = db;
     }
+    public ActionResult Index ()
+    {
+      List<Client> model = _db.Clients.ToList();
+      return View(model);
+    }
+  }
 }
