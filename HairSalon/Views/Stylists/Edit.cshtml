@@ -1,0 +1,19 @@
+@{
+    Layout = "_Layout";
+}
+
+@model HairSalon.Models.Stylist
+@using HairSalon.Models
+
+<h3>Edit Stylists</h3>
+
+@using (Html.BeginForm())
+{
+    @Html.HiddenFor(model => model.StylistId)
+    @Html.LabelFor(model => model.StylistName)
+    <input type="submit" value="Update stylist">
+}
+
+<p>@Html.ActionLink("Return", "Index")</p>
+<p>@Html.ActionLink("Return Home", "Index", "Home")</p>
+

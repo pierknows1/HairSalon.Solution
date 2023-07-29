@@ -23,5 +23,6 @@ else
 }
 
 <p>@Html.ActionLink($"Add a new Client to {Model.StylistName}", "Create", "Clients")</p>
+<p>@Html.ActionLink($"Edit {Model.StylistName}", "Edit")</p>
 <p>@Html.ActionLink("View all stylists", "Index")</p>
 <p>@Html.ActionLink("Return", "Index", "Home")</p>
