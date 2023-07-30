@@ -1,0 +1,13 @@
+@{
+    Layout = "_Layout";
+}
+
+@model HairSalon.Models.Client
+
+@using (Html.BeginForm())
+{
+    <input type="submit" value="delete">
+}
+
+<p>@Html.ActionLink("Return", "Index")</p>
+<p>@Html.ActionLink("Return Home", "Index", "Home")</p>
