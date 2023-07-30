@@ -62,4 +62,3 @@ namespace HairSalon.Controllers
   
   }
 }
-
