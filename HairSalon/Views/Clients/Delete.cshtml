@@ -4,9 +4,10 @@
 
 @model HairSalon.Models.Client
 
+<h3> do you want to delete @Model.ClientName?</h3>
 @using (Html.BeginForm())
 {
-    <input type="submit" value="delete">
+    <input type="submit" value="delete" />
 }
 
 <p>@Html.ActionLink("Return", "Index")</p>
