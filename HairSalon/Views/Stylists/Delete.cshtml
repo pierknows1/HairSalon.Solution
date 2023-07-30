@@ -1,0 +1,12 @@
+@{
+    Layout = "_Layout";
+}
+
+<p>Delete?</p>
+@using (Html.BeginForm())
+{
+    <input type="submit" value="delete it">
+}
+
+<p>@Html.ActionLink("Return", "Index")</p>
+<p>@Html.ActionLink("Return Home", "Index", "Home")</p>
