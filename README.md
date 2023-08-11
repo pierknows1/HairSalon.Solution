@@ -23,7 +23,7 @@ This application is intended to help a salon owner keep track of all their styli
 
 * _Clone this repo._
 
-* _Open the terminal and navigate to this project's production directory `HairSalon.Solution`._
+* _Open the terminal and navigate to this project's production directory `HairSalon`._
 
 * _Within the production create a new file named `appsettings.json and place the following code inside replacing the text in the brackets with your MySql user name and password respectively._
 
@@ -42,6 +42,7 @@ This application is intended to help a salon owner keep track of all their styli
 ## Known Bugs
 
 * _If the list of STYLISTS is deleted first before deleting the list of CLIENTS, the list of CLIENTS will stay and clicking on them will bring you to an error page._
+
 
 
 ## License
